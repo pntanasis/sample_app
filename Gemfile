@@ -56,6 +56,9 @@ gem 'bcrypt'
 
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'faker'
+# gem 'will_paginate', '3.1.7'
+# gem 'bootstrap-will_paginate'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

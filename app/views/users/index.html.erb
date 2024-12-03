@@ -1,14 +1,12 @@
-<p style="color: green"><%= notice %></p>
+<% provide(:title, 'All users') %>
+<h1>All users</h1>
 
-<h1>Users</h1>
+<%#= will_paginate %>
 
-<div id="users">
+<ul class="users">
   <% @users.each do |user| %>
     <%= render user %>
-    <p>
-      <%= link_to "Show this user", user %>
-    </p>
   <% end %>
-</div>
+</ul>
 
-<%= link_to "New user", new_user_path %>
+<%#= will_paginate %>
